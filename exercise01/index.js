@@ -155,7 +155,9 @@ function mergeArrays(arrA, arrB) {
 }
 // Ví dụ sử dụng hàm
 const arrayA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// initializeArray(arrayA);
 const arrayB = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+// initializeArray(arrayB);
 const result8 = mergeArrays(arrayA, arrayB);
 console.log(`Mảng c sau khi nối từ mảng a và b là: ${result8}`);
 
